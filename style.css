@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 60px;
+    background:#0f172a;
+    color:white;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    margin-left:25px;
+    text-decoration:none;
+    font-size:16px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* Hero */
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.hero button{
+    padding:12px 25px;
+    background:#38bdf8;
+    border:none;
+    font-size:16px;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:#0ea5e9;
+}
+
+/* Services */
+.services{
+    padding:60px 80px;
+    text-align:center;
+    background:#f1f5f9;
+}
+
+.services h2{
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+.service-box{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:35px;
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+/* Portfolio */
+.portfolio{
+    padding:60px;
+    text-align:center;
+}
+
+.portfolio h2{
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+.portfolio-box{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.p-card{
+    width:250px;
+    height:150px;
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    font-size:18px;
+}
+
+/* Contact */
+.contact{
+    background:#f1f5f9;
+    padding:60px;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.whatsapp{
+    margin-top:15px;
+    padding:12px 25px;
+    background:#25D366;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* Footer */
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:18px;
+}
